@@ -1,0 +1,89 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'i' ]
+2 info using npm@1.3.26
+3 info using node@v0.10.25
+4 verbose node symlink /usr/local/bin/node
+5 warn package.json nodeSimpleApp@0.0.0 No description
+6 warn package.json nodeSimpleApp@0.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/Users/doronsegal/WebDev/nodeSimpleApp',
+8 verbose install   [ 'connect', 'connect-route', 'nodemon' ] ]
+9 info preinstall nodeSimpleApp@0.0.0
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping connect@~2.12.0 /Users/doronsegal/WebDev/nodeSimpleApp
+12 verbose already installed skipping connect-route@~0.1.4 /Users/doronsegal/WebDev/nodeSimpleApp
+13 verbose cache add [ 'nodemon@0.0.1', null ]
+14 verbose cache add name=undefined spec="nodemon@0.0.1" args=["nodemon@0.0.1",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'nodemon@0.0.1',
+15 verbose parsed url   path: 'nodemon@0.0.1',
+15 verbose parsed url   href: 'nodemon@0.0.1' }
+16 verbose cache add name="nodemon" spec="0.0.1" args=["nodemon","0.0.1"]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: '0.0.1',
+17 verbose parsed url   path: '0.0.1',
+17 verbose parsed url   href: '0.0.1' }
+18 verbose addNamed [ 'nodemon', '0.0.1' ]
+19 verbose addNamed [ '0.0.1', '0.0.1' ]
+20 silly lockFile 72060e5c-nodemon-0-0-1 nodemon@0.0.1
+21 verbose lock nodemon@0.0.1 /Users/doronsegal/.npm/72060e5c-nodemon-0-0-1.lock
+22 verbose url raw nodemon/0.0.1
+23 verbose url resolving [ 'https://registry.npmjs.org/', './nodemon/0.0.1' ]
+24 verbose url resolved https://registry.npmjs.org/nodemon/0.0.1
+25 info trying registry request attempt 1 at 17:08:24
+26 http GET https://registry.npmjs.org/nodemon/0.0.1
+27 http 404 https://registry.npmjs.org/nodemon/0.0.1
+28 silly registry.get cb [ 404,
+28 silly registry.get   { date: 'Tue, 04 Feb 2014 01:08:25 GMT',
+28 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+28 silly registry.get     etag: '"4HRLLG5N4DKCSQVE3VENGKFLV"',
+28 silly registry.get     'content-type': 'application/json',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '36',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     age: '0',
+28 silly registry.get     'x-served-by': 'cache-v44-ASH, cache-sv95-SJC3',
+28 silly registry.get     'x-cache': 'MISS, MISS',
+28 silly registry.get     'x-cache-hits': '0, 0',
+28 silly registry.get     'x-timer': 'S1391476105.583402395,VS0,VS14,VE64,VE124',
+28 silly registry.get     vary: 'Accept',
+28 silly registry.get     'keep-alive': 'timeout=10, max=50',
+28 silly registry.get     connection: 'Keep-Alive' } ]
+29 silly lockFile 72060e5c-nodemon-0-0-1 nodemon@0.0.1
+30 silly lockFile 72060e5c-nodemon-0-0-1 nodemon@0.0.1
+31 error Error: version not found: 0.0.1 : nodemon/0.0.1
+31 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:276:14)
+31 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+31 error     at Request.EventEmitter.emit (events.js:98:17)
+31 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+31 error     at Request.EventEmitter.emit (events.js:117:20)
+31 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+31 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+31 error     at _stream_readable.js:920:16
+31 error     at process._tickCallback (node.js:415:13)
+32 error If you need help, you may report this *entire* log,
+32 error including the npm and node versions, at:
+32 error     <http://github.com/isaacs/npm/issues>
+33 error System Darwin 13.0.0
+34 error command "node" "/usr/local/bin/npm" "i"
+35 error cwd /Users/doronsegal/WebDev/nodeSimpleApp
+36 error node -v v0.10.25
+37 error npm -v 1.3.26
+38 verbose exit [ 1, true ]
