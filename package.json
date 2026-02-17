@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/doron2402/nodeSimpleApp",
   "dependencies": {
-    "connect": "~2.12.0",
+    "connect": "~3.0.0",
     "connect-route": "~0.1.4"
   }
 }
